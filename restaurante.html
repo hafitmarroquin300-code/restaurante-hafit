@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hafit Marroquín | Restaurante</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- ICONOS REDES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+
+
+<body>
+
+<header>
+    <nav class="navbar">
+    <div class="nav-group">
+        <a href="#" class="active">INICIO</a>
+        <a href="menu.html">MENÚ</a>
+        <a href="#" id="reservaBtn">RESERVAS</a>
+    </div>
+
+    <div>
+        <img src="logo gontex.png" class="logo-img" alt="Logo">
+    </div>
+
+    <div class="nav-group">
+        <a href="https://maps.app.goo.gl/g1NJb2BNz16BosZf7">UBICACIÓN</a>
+        <a href="https://wa.me/593998773205?text=Hola%20me%20gustaria%20informacion%20sobre%20el%20menu">CONTACTO</a>
+
+        <div class="dropdown">
+            <a href="#" id="moreBtn">MORE ▾</a>
+            <div class="dropdown-content" id="dropdownMenu">
+                <a href="#">Empresa</a>
+                <a href="https://rappi.com" target="_blank">Rappi</a>
+            </div>
+        </div>
+    </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="slides-container">
+        <div class="slide active" style="background-image: url('https://media.hellofresh.com/q_100,w_1920,f_auto,c_limit,fl_lossy/recipes/image/HF_Y24_R04_W42_ES_ESVCFV23962-2_Main_1_high-7500dfc9.jpg');"></div>
+        <div class="slide" style="background-image: url('https://picsum.photos/1200/800?random=2');"></div>
+        <div class="slide" style="background-image: url('https://picsum.photos/1200/800?random=3');"></div>
+    </div>
+
+    <div class="slider-dots">
+        <span class="dot active-dot" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+    </div>
+</section>
+
+<section id="menuSection" class="menu-section">
+    <h2>NUESTRO MENÚ</h2>
+
+    <div class="menu-grid">
+        <div class="menu-item">
+            <h3>Filete Premium</h3>
+            <p>Carne seleccionada, reducción de vino tinto y vegetales grillados.</p>
+            <span>$18.99</span>
+        </div>
+
+        <div class="menu-item">
+            <h3>Pasta Artesanal</h3>
+            <p>Pasta fresca con salsa cremosa de trufa y parmesano.</p>
+            <span>$14.50</span>
+        </div>
+
+        <div class="menu-item">
+            <h3>Salmón Gourmet</h3>
+            <p>Salmón sellado con puré rústico y salsa de limón.</p>
+            <span>$21.00</span>
+        </div>
+
+        <div class="menu-item">
+            <h3>Postre de la Casa</h3>
+            <p>Volcán de chocolate con helado artesanal.</p>
+            <span>$8.00</span>
+        </div>
+    </div>
+</section>
+
+
+<section class="info-block">
+    <h1>HAFIT MARROQUÍN</h1>
+    <p class="subtitle">COCINA DE AUTOR · EXPERIENCIA · ELEGANCIA</p>
+    <p>
+        Una experiencia gastronómica donde cada plato es una obra de arte.
+        Tradición y técnica se fusionan para ofrecer momentos inolvidables.
+    </p>
+    <a href="menu.html" class="btn-primary">VER MENÚ</a>
+</section>
+
+<section class="gallery-grid">
+    <div class="item"><img src="https://picsum.photos/400/300?random=1"></div>
+    <div class="item"><img src="https://picsum.photos/400/300?random=2"></div>
+    <div class="item"><img src="https://picsum.photos/400/300?random=3"></div>
+    <div class="item"><img src="https://picsum.photos/400/300?random=4"></div>
+</section>
+
+<section class="reviews-section">
+    <div class="reviews-layout">
+        <div class="graphic-circle">
+            <img src="https://picsum.photos/450">
+            <div class="rating-box">
+                <strong>4.8</strong>
+                ★★★★★
+                <p>Clientes Satisfechos</p>
+            </div>
+        </div>
+
+        <div class="reviews-content">
+            <h2>RESEÑAS</h2>
+
+            <div class="cards-container">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Una experiencia gastronómica espectacular."</p>
+                    <small>Andrés V.</small>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Ambiente elegante y servicio impecable."</p>
+                    <small>Lucía M.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <a href="https://wa.me/593998773205?text=Hola%20me%20gustaria%20informacion%20sobre%20el%20menu" target="_blank" class="btn-whatsapp">WhatsApp</a>
+    <h2>HAFIT MARROQUÍN</h2>
+    <p>Ibarra, Ecuador</p>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.tiktok.com" target="_blank">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+
+
+
+
+    <p class="copyright">
+        © 2026 Hafit Marroquín - Todos los derechos reservados
+    </p>
+</footer>
+
+<div id="cookieBanner" class="cookie-banner">
+    <p>Este sitio utiliza cookies para mejorar tu experiencia.</p>
+    <div class="cookie-btns">
+        <button onclick="hideCookies('decline')">Rechazar</button>
+        <button onclick="hideCookies('accept')">Aceptar</button>
+    </div>
+</div>
+
+<script src="cerebro.js"></script>
+</body>
+</html>
